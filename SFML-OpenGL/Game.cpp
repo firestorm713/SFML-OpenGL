@@ -22,6 +22,7 @@ int Game::ExecuteGame()
 {
 	InitGame();
 	LoadContent();
+	ScaleUniform = glGetUniformLocation(ShaderProgramID, "ScaleUniform");
 	glUseProgram(ShaderProgramID);	// Use this when switching from one shader to another. 
 	while(running)
 	{

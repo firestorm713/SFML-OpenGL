@@ -7,7 +7,7 @@
 int main(int argc,char* argv[])
 {
 	Game game1;
-	game1.ExecuteGame();
+	return game1.ExecuteGame();
 }
 
 /*	sf::Window window(sf::VideoMode(800,600),"OpenGL",sf::Style::Close);

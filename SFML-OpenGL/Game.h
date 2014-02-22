@@ -16,6 +16,7 @@ public:
 	sf::Event windowEvent;
 	GLuint VBO;
 	GLuint ShaderProgramID;
+	GLuint ScaleUniform;
 
 private:
 	void LoadAndCompileShaders();
